@@ -1,7 +1,13 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
-        System.out.println("testing");
+
+        String url = "https://en.wikipedia.org/wiki/Elon_Musk";
+        Crawler crawler = new Crawler();
+        crawler.crawl(url);
+
     }
+
 }
